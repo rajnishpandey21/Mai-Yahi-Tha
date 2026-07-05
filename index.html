@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>For My Shona ❤️</title>
+
+<style>
+*{box-sizing:border-box;margin:0;padding:0;font-family:Arial,sans-serif}
+body{
+  min-height:100vh;
+  background:linear-gradient(135deg,#fff1f5,#ffe4ec,#fdf2f8);
+  color:#4a102a;
+}
+.screen{
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:18px;
+}
+.card{
+  width:100%;
+  max-width:760px;
+  background:#ffffff;
+  border-radius:24px;
+  padding:28px;
+  box-shadow:0 18px 60px rgba(180,40,90,.18);
+}
+h1{
+  text-align:center;
+  color:#c2185b;
+  font-size:2rem;
+  margin-bottom:18px;
+}
+p{
+  font-size:1.05rem;
+  line-height:1.85;
+  margin:14px 0;
+}
+input{
+  width:100%;
+  padding:15px;
+  border:2px solid #f5b5ca;
+  border-radius:14px;
+  font-size:1rem;
+  margin:18px 0;
+}
+button,.video-btn{
+  border:none;
+  padding:14px 26px;
+  border-radius:999px;
+  background:#c2185b;
+  color:white;
+  font-weight:700;
+  cursor:pointer;
+  font-size:1rem;
+  text-decoration:none;
+  display:inline-block;
+}
+button:hover,.video-btn:hover{background:#9c1248}
+.center{text-align:center}
+.hidden{display:none}
+.para{
+  display:none;
+  animation:fade .7s ease;
+  background:#fff7fa;
+  border-left:5px solid #c2185b;
+  padding:18px;
+  border-radius:16px;
+  margin:18px 0;
+}
+.para.show{display:block}
+.promise{
+  background:#fde7ef;
+  border-left:5px solid #8e0038;
+  font-weight:700;
+}
+#nextBtn{margin-top:18px}
+@keyframes fade{
+  from{opacity:0;transform:translateY(12px)}
+  to{opacity:1;transform:translateY(0)}
+}
+.heart{
+  position:fixed;
+  top:-30px;
+  pointer-events:none;
+  animation:fall linear infinite;
+}
+@keyframes fall{
+  to{transform:translateY(110vh) rotate(360deg);opacity:0}
+}
+@media(max-width:600px){
+  .card{padding:20px}
+  h1{font-size:1.6rem}
+  p{font-size:1rem}
+}
+</style>
+</head>
+
+<body>
+
+<audio id="bgMusic" loop>
+  <source src="song.mp3" type="audio/mpeg">
+</audio>
+
+<div id="login" class="screen">
+  <div class="card center">
+    <h1>Only For You, Divaa Divyaa ❤️</h1>
+    <p>..................</p>
+    <input id="password" type="password" placeholder="Password likho...Nahi Pata? Chalo ek text hi kar do mujhe...." />
+    <button onclick="unlock()">Open ❤️</button>
+    <p id="error" style="color:#c2185b;font-weight:700"></p>
+  </div>
+</div>
+
+<div id="main" class="screen hidden">
+  <div class="card">
+    <h1>Meriiii Shonaaa 🧿❤️</h1>
+
+    <div class="para show">
+      <p>Mujhe pata hai abhi aapke mann me bahut saari baatein chal rahi hongi. Shayad guilt, darr, confusion, gussa — sab kuch ek saath feel ho raha hoga. Aur sach bolu to mujhe bahut bura lag raha hai ki meri wajah se aapko itna heavy feel ho raha hai.</p>
+    </div>
+
+    <div class="para">
+      <p>Main bas itna kehna chahta hoon ki aap mere liye bahut special ho. Aap sirf meri pasand nahi ho, aap meri life ka woh hissa ho jiske baare me sochkar dil ko sukoon milta hai. Main aapse bahut prem karta hoon, bahut zyada. Lekin mere pyaar se bhi pehle mere liye aapki respect, aapka comfort aur aapki peace important hai.</p>
+    </div>
+
+    <div class="para">
+      <p>Kal jo bhi hua, uske baad agar aapko lag raha hai ki kuch galat ho gaya, to please apne aap ko blame mat karna. Aap buri nahi ho, aap galat nahi ho. Aap bas ek emotional situation me thi, aur main bhi tha.</p>
+    </div>
+
+    <div class="para promise">
+      <p>Main dil se promise karta hoon, aaj ke baad main kabhi bhi aapko touch tak nahi karunga jab tak aap khud completely comfortable na ho. Kabhi bhi nahi. Aapki permission, aapka comfort aur aapki boundaries mere liye sabse upar hain.</p>
+    </div>
+
+    <div class="para">
+      <p>Mujhe sach me afsos hai agar meri kisi baat, kisi action ya kisi moment ki wajah se aap uncomfortable hui ho. Mera intention kabhi bhi aapko hurt karna nahi tha, na kabhi hoga. Aap mere liye izzat ho, mohabbat ho, aur meri sabse pyari dua ho.</p>
+    </div>
+
+    <div class="para">
+      <p>Agar aapko space chahiye, main dunga. Agar aapko time chahiye, main wait karunga. Agar aap baat nahi karna chahti abhi, main force nahi karunga. Bas itna chahta hoon ki aap ye samjho ki main aapke against nahi hoon, main hamesha aapke saath hoon.</p>
+    </div>
+
+    <div class="para">
+      <p>Aapki family, aapke values, aapka trust — main in sabki respect karta hoon. Main kabhi nahi chahta ki aapko lage ki aapne apne parents ka trust break kiya hai. Aap ek achhi beti ho, ek achhi insaan ho, aur meri nazar me aapki value kabhi kam nahi ho sakti.</p>
+    </div>
+
+    <div class="para">
+      <p>Main aapse sirf pyaar nahi karta, main aapki har feeling ki care karta hoon. Aapka naraz hona bhi mere liye important hai. Aapka chup ho jana bhi mujhe feel hota hai, kyunki meri aadat ban chuki ho aap.</p>
+    </div>
+
+    <div class="para">
+      <p>Aap jab hasti ho na, sach me lagta hai sab theek hai. Aur jab aap hurt hoti ho, to dil me ajeeb sa dard hota hai. Main chahta hoon ki main wahi insaan banu jiske saath aap safe, respected aur loved feel karo.</p>
+    </div>
+
+    <div class="para">
+      <p>Mujhe pata hai main perfect nahi hoon. Shayad main kabhi kabhi galat words bol deta hoon, kabhi situation ko achhe se handle nahi kar pata. Lekin meri feelings fake nahi hain. Mera pyaar sach hai. Aur meri respect bhi sach hai.</p>
+    </div>
+
+    <div class="para">
+      <p>Bas ek request hai — please apne aap ko itna punish mat karo. Aap bahut pyari ho, bahut pure heart wali ho. Ek moment aapki poori identity define nahi karta. Aap meri nazar me hamesha wahi Divaaa rahogi — sabse alag, sabse pyaari, sabse keemti.</p>
+    </div>
+
+    <div class="para">
+      <p>Jab mann halka ho, jab aap ready ho, tab baat kar lena. Main yahin hoon. Na gussa, na complaint, na pressure. Sirf pyaar, respect aur wait.</p>
+    </div>
+
+    <div class="para">
+      <p>I love you so much yrrr. Itna ki lafzon me pura kabhi nahi aa sakta. Bas itna samajh lo, meri har dua me aapka sukoon hai, meri har khushi me aapki muskaan hai, aur mere dil me aapki jagah hamesha special rahegi. ❤️♾️</p>
+
+      <div class="center" style="margin-top:24px">
+        <a class="video-btn" target="_blank"
+        href="https://drive.google.com/drive/folders/1VBYYk1gFzB9RwWa6wAD9S0kWtw2bqnGZ">
+          Open❤️
+        </a>
+      </div>
+    </div>
+
+    <div class="center">
+      <button id="nextBtn" onclick="showNext()">Agla padho ❤️</button>
+    </div>
+  </div>
+</div>
+
+<script>
+const correctPassword = "merishona"; // Change this to your desired password
+
+const appsScriptUrl = "https://script.google.com/macros/s/AKfycbxxyh9olysw4RKcZcgnbCty2T1b_Uk5XfkiYIlQnRltJ0zRMxuHEmRUCwMVQqLQnMRY/exec";
+
+let currentPara = 0;
+
+function notifyPasswordEntered(){
+  fetch(appsScriptUrl, {
+    method: "POST",
+    mode: "no-cors",
+    headers: {
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify({
+      message: "Password sahi enter hua hai. Page open ho gaya.",
+      time: new Date().toLocaleString()
+    })
+  });
+}
+
+function unlock(){
+  const pass = document.getElementById("password").value;
+  const error = document.getElementById("error");
+
+  if(pass === correctPassword){
+    document.getElementById("login").classList.add("hidden");
+    document.getElementById("main").classList.remove("hidden");
+
+    const music = document.getElementById("bgMusic");
+    music.volume = 0.45;
+    music.play();
+
+    notifyPasswordEntered();
+
+  } else {
+    error.innerText = "Wrong password 😔";
+  }
+}
+
+function showNext(){
+  const paras = document.querySelectorAll(".para");
+  currentPara++;
+
+  if(currentPara < paras.length){
+    paras[currentPara].classList.add("show");
+    paras[currentPara].scrollIntoView({behavior:"smooth", block:"center"});
+  }
+
+  if(currentPara === paras.length - 1){
+    document.getElementById("nextBtn").innerText = "Bas itna hi... I love you ❤️";
+  }
+
+  if(currentPara >= paras.length){
+    document.getElementById("nextBtn").style.display = "none";
+  }
+}
+
+function createHeart(){
+  const heart = document.createElement("div");
+  heart.className = "heart";
+  heart.innerHTML = Math.random() > 0.5 ? "❤️" : "🧿";
+  heart.style.left = Math.random() * 100 + "vw";
+  heart.style.fontSize = Math.random() * 16 + 14 + "px";
+  heart.style.animationDuration = Math.random() * 3 + 4 + "s";
+  document.body.appendChild(heart);
+  setTimeout(() => heart.remove(), 7000);
+}
+
+setInterval(createHeart, 500);
+</script>
+
+</body>
+</html>
